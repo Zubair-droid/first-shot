@@ -1,0 +1,116 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	overflow-x:hidden;
+}
+
+.navbar{
+	padding: 1.2em;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav-items{	
+	margin:auto;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+   padding: 1em;
+}
+
+span{
+	font-size: small;
+}
+
+.main{
+	position: relative;
+	text-align:left;
+}
+
+.hero-text{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: calc(0.75em, 1vw);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+}
+
+.right-img{
+	max-width:100%;
+	height: auto;
+}
+
+
+.card{
+	border: none;
+	margin: 14px 0;
+}
+
+.card-img-top{
+	border-radius: 5px;
+}
+
+.card-body{
+	background-color: lightgrey;
+	margin-top: -3px;
+}
+.cards{
+	margin:auto;
+	width: 100%;
+}
+.center-hy{
+    display: flex;
+	align-items: center;
+}
+
+.vl{
+	border-left: 6px solid #1CD6CE;
+    height: 120px;
+}
+.text-container{
+	position: absolute;
+	margin: 4%;
+	padding: 4% 6%;
+	width: 38%;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	border-radius: 0;
+	
+}
+
+.fourth{
+	background-color: lightgrey;
+	height: auto;
+	width: 100%;
+	margin:auto;
+	padding: 25px;
+}
+
+.list{
+	display: flex;
+	flex-direction: column;
+}
+
+@media only screen and (max-width:  600px){
+	
+	.right-img{
+		height: 89vh;
+	}
+	
+}
